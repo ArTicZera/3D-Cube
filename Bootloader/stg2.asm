@@ -29,8 +29,6 @@ krnlsectors:
 
         ret
 
-DRV: db 0x00
-
 %include "Bootloader/gdt.asm"
 %include "Bootloader/pmode.asm"
 
