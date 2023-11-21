@@ -57,8 +57,6 @@ void main(void)
         {7, 4}
     };
 
-    int i = 1;
-
     while (true)
     {
         //Instantly captures total edges and vtx. 
@@ -74,14 +72,12 @@ void main(void)
             RotateZ(&vtx[i], angleZ);
         }
 
-        DrawCube(vtx, edges, size, totedges, palette(i));
+        DrawCube(vtx, edges, size, totedges, 0x0F);
 
         //Delay for the next cube position
         Delay(10000 * 100);
 
         //Clear the previous draw
         DrawCube(vtx, edges, size, totedges, 0x00);
-
-        i++;
     }
 }
