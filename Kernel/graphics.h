@@ -3,23 +3,6 @@
 #define WSCREEN 320
 #define HSCREEN 200
 
-unsigned char palette(int x)
-{
-    if (x > 55)
-    {
-        x -= 32;
-        return palette(x);
-    }
-
-    if (x < 32)
-    {
-        x += 16;
-        return palette(x);
-    }
-
-    return x;
-}
-
 void SetPixel(int x, int y, unsigned char color)
 {
     unsigned char* VGA = (unsigned char*) VIDMODE;
