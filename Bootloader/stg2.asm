@@ -17,7 +17,7 @@ krnlsectors:
         mov ah, 0x02
         mov al, SECTRS
         mov ch, 0x00
-        mov cl, 0x04
+        mov cl, 0x03
         mov dh, 0x00
 
         xor bx, bx
@@ -34,4 +34,4 @@ DRV: db 0x00
 %include "Bootloader/gdt.asm"
 %include "Bootloader/pmode.asm"
 
-times 1024 - ($ - $$) db 0x00
+times 512 - ($ - $$) db 0x00
