@@ -9,3 +9,5 @@ Rotating Matrix: https://en.wikipedia.org/wiki/Rotation_matrix#In_three_dimensio
 Pitch, Yaw and Roll: https://simple.wikipedia.org/wiki/Pitch,_yaw,_and_roll
 
 Taylor Series: https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions
+
+OS Dev: https://wiki.osdev.org/Expanded_Main_Page
