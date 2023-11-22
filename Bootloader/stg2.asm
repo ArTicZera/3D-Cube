@@ -13,7 +13,7 @@ main:
         jmp CODESEG:pmode
 
 krnlsectors:
-        ;4096 bytes
+        ;Max: 4096 bytes
         mov ah, 0x02
         mov al, SECTRS
         mov ch, 0x00
