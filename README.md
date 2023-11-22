@@ -1,7 +1,7 @@
 # 3D-Cube
 C++ Kernel 3D Rotating Cube made from scratch using Mode 13h's Video Mode. The version that draws only the edges can fit in 3584 bytes (7 sectors).
 
-[Screenshot](./Screenshots/Screenshot_1.png)
+[Screenshot](Screenshots/Screenshot_1.png)
 
 # Environment Setup
 If you just want to run the `Cube.img` available file, make sure to have [qemu-system-i386](https://www.qemu.org/download/). If you don't have you still can run it by using VMware or VirtualBox, just boot up with the floopy.
