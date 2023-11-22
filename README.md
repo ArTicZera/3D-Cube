@@ -15,6 +15,4 @@ Otherwise, if you want to compile it, you'll need [i386 ELF GCC](https://github.
 
 # Common Problems
 * If you modified the kernel and the program doesn't work anymore, look at the binary's size, it may exceeded the 8 allowed sectors. If that happens just change the `SECTRS` size in the [stg2.asm](./Bootloader/stg2.asm).
-<br />
-<br />
 * If the program is too slow or too fast, you'll need to change the angles values at [kernel.cpp](./Kernel/kernel.cpp) or change the time at `Delay();` function.
